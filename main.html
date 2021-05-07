@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopta una mascota</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Nunito" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="home">
+    <div id="test" class="container-md pt-4 ps-4 pe-3">
+        <p class="h2 fw-bold">Adopta una adorable mascota</p>
+        <p class="mt-4"> Categoría de mascotas</p>
+        <div class="justify-content-center">
+          <ul class=" nav nav-pills mb-3 " id="pills-tab" role="tablist">
+            <li class="nav-item col-6" role="presentation">              
+              <button class="btn-dog btn btn-secondary" onClick="listDogs()" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+                type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                <div class="row">
+                  <div class="col-4 icono-dog">
+                    <img class="img-fluid mt-2" src="./img/dog.png">
+                    </div>
+                      <div class="col-6 category-dog">
+                      <p>Perros</p>
+                    </div>
+                    </div>
+              </button>
+            </li>
+            <li class="nav-item col-6" role="presentation">
+              <button class="btn-cat btn btn-secondary" onClick="listCats()" id="pills-profile-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                aria-selected="false">
+                <div class="row">
+                  <div class="col-4 icono-cat">
+                    <img class="img-fluid mt-2" src="./img/cat.png">
+                  </div>
+                  <div class="col-6 category-cat">
+                    <p>Gatos</p>
+                  </div>
+                  </div>
+              </button>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+              <div class="container-fluid mt-4 mb-3">
+                <div class="row row-cols-2 row-cols-md-2 g-4 listdog">
+                 
+                  
+                </div>
+            </div>
+              
+                </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+              <div class="container-fluid mt-4 mb-3">
+                <div class="row row-cols-2 row-cols-md-2 g-4 listcat">
+                 
+                  
+                </div>
+            </div>
+                
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <main>
+    </main>
+    <footer>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light menu-pets ">
+            <div class="container-fluid">
+              <a class="nav-link active" aria-current="page" href="main.html" tabindex="-1">
+                <img class="icono-active" src="img/nav/home-active.svg" alt="" width="24" height="24"></a>
+              <a class="nav-link" aria-current="page" href="messenger.html" tabindex="-1">
+                  <img src="img/nav/message.svg" alt="" width="24" height="24"></a>
+              <a class="nav-link" aria-current="page" href="favourite.html" tabindex="-1">
+                  <img src="img/nav/favourite.svg" alt="" width="24" height="24"></a>
+              <a class="nav-link" aria-current="page" href="profile.html" tabindex="-1">
+                  <img src="img/nav/profile.svg" alt="" width="24" height="24">
+              </a>
+            </div>
+        </nav>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+<script type="module" src="js/main.js"></script>
+
+</html>

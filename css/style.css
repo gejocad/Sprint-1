@@ -1,0 +1,530 @@
+:root {
+    --color-primary: #FEC7D7;
+    --color-secundary: #A786DF;
+    --font-family: "Nunito";
+    --color-blue: #91C1D7;
+    --color-green: #85D1CE;
+    --color-gray: #535353;
+    --color-tertiary: #D9D4E7;
+    --color-black: #0E172C;
+    --bs-secondary: #0E172C;
+}
+
+.Headline1 {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.Headline2 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.subtitle1 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.0015em;
+}
+
+
+
+.body1Regular {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: var(--color-gray);
+}
+
+.body1Bold {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+}
+
+.body2Regular {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.005em;
+}
+
+.body2Bold {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.005em;
+}
+
+.buttom {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.0125em;
+}
+
+.caption {
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.004em;
+    color: var(--color-gray)
+}
+.menu-pets {
+    position: fixed;
+    top: 93%;
+    width: 100%;
+}
+.icono-active{
+    width: 102px;
+    height: 40px;
+    top: 36px;
+    left: 24px;
+    margin-top: -7px;
+}
+
+#home {
+    background: var(--color-primary);
+    font-family: Nunito;
+    font-style: normal;
+}
+
+.btn-dog, .btn-cat {
+    border-radius: 8px;
+    padding: 8px;
+    background: var(--color-black);
+    width: 155px;
+    height: 80px;
+    left: 172px;
+    top: 0px;
+}
+
+.icono-cat, .icono-dog {
+    border-radius: 100%;
+    background: var(--color-green);
+    margin-left: 15px;
+}
+
+#image-dog, #image-cat {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-left: 5px;
+}
+
+
+.category-cat, .category-dog {
+    padding-top: 8%;
+}
+
+.card-img {
+    height: 250px;
+    width: 156px;
+    filter: brightness(0.8);
+    border-radius: 16px;
+    border: none;
+    margin-bottom: 15px;
+    border: 1px solid rgba(0, 0, 0, .125);
+}
+
+.card {
+    border: none;
+}
+
+.bg-dark {
+    background-color: rgba(33, 37, 41, 0)!important;
+}
+
+.card-title {
+    margin-top: 135%;
+    color: white;
+}
+
+.card-text {
+    color: #CDCDCD;
+}
+
+.title {
+    padding-right: 40px;
+}
+
+p {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+button:focus:not(:focus-visible) {
+    outline: 0;
+    opacity: 50%;
+}
+
+.modal-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 327px;
+}
+
+
+
+.modal {
+    padding-top: 40px;
+    border-radius: 70px;
+}
+
+#view {
+    font-family: Nunito;
+    font-style: normal;
+}
+.btn-connect {
+    width: 100%;
+    border-radius: 98px;
+    padding: 16px;
+    background: var(--color-black);
+}
+
+.loving, .restless, .playful, .tender, .curious, .lazy, .calm, .aventure, .patient {
+    border-style: solid;
+    border-color: var(--color-secundary)
+}
+
+.image-character {
+    align-content: center;
+}
+.describe-pet {
+    position: absolute;
+    background-color: white;
+    top: 415px;
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+}
+.heart {
+    position: absolute;
+    bottom: 645px;
+    right: 14px;
+    z-index: 100;
+}
+.get-back {
+    position: absolute;
+    bottom: 744px;
+    right: 307px;
+    z-index: 100;
+}
+.cards {
+    border-radius: 8px;
+    width: 92px;
+    height: 92px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.message {
+    background: white;
+    margin-left: 24px;
+    margin-right: 24px;
+    padding: 8px;
+    height: 80px;
+    border-radius: 8px;
+}
+
+.connect-message{
+    text-decoration: none !important;
+}
+
+body {
+    background: var(--color-primary);
+    font-family: 'Nunito';
+}
+
+.contain-message {
+    margin-top: -16px;
+    color: #535353;
+}
+
+.ver-message {
+    margin-top: 20px;
+    margin-left: -8px;
+}
+
+#image-contact {
+    margin-top: 8px;
+    margin-left: -8px;
+}
+
+.time {
+    margin-left: -32px;
+}
+
+.user{
+    color: #0E172C;
+}
+
+.saved{
+    width: 100%;
+    border-radius: 98px;
+    padding: 16px;
+    background: var(--color-black);
+    margin-top: 24px;
+}
+
+
+.edit {
+    width: 327px;
+    height: 48px;
+    left: 0px;
+    border: 1px solid #535353;
+    margin: 4px 0px;
+    margin-bottom: 16px;
+}
+
+.label-edit {
+    margin: 0px 10px;
+}
+
+.user2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 94px;
+    margin-left: 140px;
+
+}
+
+.btn-edit{
+    color: #0E172C;
+    margin-bottom: 24px;
+}
+.data{
+    padding: 0;
+}
+
+.profile{
+    margin: 48px 24px 32px 24px;
+}
+
+#messages {
+    background: var(--color-primary);
+}
+
+#div-contact {
+    background-color: white;
+}
+.image-contact {
+    text-align: center;
+}
+
+.contain {
+    text-align: center;
+    align-items: center;
+    top: 400px;
+    position: absolute;
+    left: 115px;
+}
+
+.txt-message {
+    width: 350px;
+    height: 48px;
+    left: 8px;
+    top: 700px;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 100px;
+    position: absolute;
+}
+.txt-message2 {
+    width: 350px;
+    height: 48px;
+    left: 8px;
+    top: 700px;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 100px;
+}
+.get-back {
+    position: absolute;
+    bottom: 744px;
+    right: 307px;
+    z-index: 100;
+}
+
+.message-sent, .message-received {
+    background: white;
+}
+
+.message-sent {
+    margin-left: 96px;
+    margin-right: 24px;
+    padding: 16px;
+    width: 255px;
+    height: auto;
+    border-radius: 16px;
+}
+
+.message-received {
+    width: 255px;
+    height: auto;
+    background: #535353;
+    border-radius: 16px;
+    padding: 16px;
+    margin-left: 24px;
+    margin-right: 96px;
+    color: #FFFFFE;
+}
+
+.time-sent, .time-received {
+    text-align: center;
+    margin-top: 24px;
+}
+
+.main-message {
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.card-img-overlay {
+    box-shadow: inset 0px -51px 40px -15px #000000;
+    height: 250px;
+    width: 156px;
+    border-radius: 16px;
+}
+
+.modal-footer{
+    justify-content: center;
+}
+
+
+
+@media (min-width: 540px) {
+    .title {
+        text-align: center;
+        margin-top: 100px !important;
+        margin-bottom: 45px;
+    }
+
+    .icono-cat, .icono-dog {
+        margin-left: 30px;
+        margin-right: 14px;
+        width: 65px;
+    }
+    #image-dog, #image-cat {
+        padding-top: 14px;
+        margin-left: 0px;
+    }
+    .btn-dog, .btn-cat {
+        width: 300px;
+        height: 105px;
+    }
+    
+    .card-img {
+        width: 200px;
+        height: 300px;
+    }
+    .section1, .section2 {
+        margin-left: 165px;
+        margin-right: 135px;
+        width: 324px !important;
+    }
+    .card-img-overlay {
+        width: 200px !important;
+        ;
+        height: 300px!important;
+        ;
+    }
+    .card-title {
+        margin-top: 115%;
+    }
+    .grid-pets {
+        justify-content: center;
+    }
+    .pets {
+        width: 20%;
+    }
+}
+
+
+
+@media (min-width: 540px){
+    .menu-pets {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    .Headline1 {
+        font-size: 34px !important;
+    }
+    .Headline2 {
+        font-size: 28px !important;
+    }
+    .subtitle1 {
+        font-size: 28px !important;
+    }
+    .body1Regular {
+        font-size: 22px !important;
+    }
+    .body1Bold {
+        font-size: 22px !important;
+    }
+    .body2Regular {
+        font-size: 20px !important;
+    }
+    .body2Bold {
+        font-size: 20px !important;
+    }
+    .buttom {
+        font-size: 24px !important;
+    }
+    .caption {
+        font-size: 21px !important;
+    }
+    .iconos {
+        width: 40px;
+    }
+    .nav-link-message {
+        margin-left: 70%;
+    }
+}
+
+
+@media (min-width: 540px){
+    .describe-pet {
+        top: 30px;
+        width: 65%;
+        left: 35%;
+    }
+    .img-view-pet {
+        width: 35%;
+        align-items: flex-end;
+    }
+    .texto-view-pet {
+        font-size: 25px !important;
+    }
+    .texto-view-pet-location {
+        width: 140%;
+        font-size: 25px !important;
+    }
+    header{
+        margin-top: 66px;
+    }
+    .heart{
+        bottom: 535px;
+        top: 5%;
+        z-index: 0;
+    }
+    .get-back{
+        display: none;
+    }
+    .image-pet, .describe-pet{
+        padding: 20px;
+    }
+    .contact{
+        margin-bottom: 15px !important;
+    }
+
+}
